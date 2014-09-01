@@ -8,6 +8,8 @@ AlgorithmSolutions(算法大全)
 
 ![github](http://img.my.csdn.net/uploads/201207/17/1342514529_5795.jpg "github")
 
+![github](http://blog.chinaunix.net/attachment/201201/18/21457204_1326898064RUxx.jpg "github")
+
  当n较大，则应采用时间复杂度为O(nlog2n)的排序方法：快速排序、堆排序或归并排序序。
 
  快速排序：是目前基于比较的内部排序中被认为是最好的方法，当待排序的关键字是随机分布时，快速排序的平均时间最短；
