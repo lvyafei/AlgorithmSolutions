@@ -38,4 +38,24 @@ public class insertionSort {
 			print(a, n, i); // 打印每趟排序的结果
 		}
 	}
+	/**
+	 * 直接插入顺序(从"小"到"大")
+	 * 4个点:1."游标"值不变;2.声明游标后边的索引;3.循环替换后边的值;4.放入"游标值"
+	 * @param a
+	 */
+	public void myInsertSort(int[] a){
+		int max=a.length;
+		for(int i=1;i<max;i++){
+			int j=i-1;//2.声明游标后边的索引
+			int temp=a[i];//1."游标"值不变
+			while(j>-1&&temp<a[j]){//3.循环替换后边的值
+				a[j+1]=a[j];
+				j--;
+			}
+			a[j+1]=temp;//4.放入"游标值"
+		}
+		for (int i : a) {
+			System.out.print(String.valueOf(i)+" ");
+		}
+	}
 }
