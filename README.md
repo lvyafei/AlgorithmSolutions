@@ -14,7 +14,7 @@ AlgorithmSolutions(算法大全)
 
  快速排序：是目前基于比较的内部排序中被认为是最好的方法，当待排序的关键字是随机分布时，快速排序的平均时间最短；
 
-
+###[白话经典算法系列](http://blog.csdn.net/morewindows/article/category/859207)
 介绍
 ----------
 ###一、冒泡排序：
