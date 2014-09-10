@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import com.fei.sortingAlgorithm.insertionSort;
 import com.fei.sortingAlgorithm.shellSort;
+import com.fei.sortingAlgorithm.simpleSelectionSort;
 
 public class mainTest {
 
@@ -27,5 +28,11 @@ public class mainTest {
 		for (int i : a) {
 			System.out.print(i+" ");
 		}
+	}
+	@Test
+	public void testSimpleSelection(){
+		int[]a={49, 38, 65, 97, 26, 13, 27, 49, 55, 4};
+		simpleSelectionSort simple=new simpleSelectionSort();
+		simple.simpleSelection(a);
 	}
 }
